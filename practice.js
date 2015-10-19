@@ -1,6 +1,6 @@
 function dog(name, breed, age) {
   console.log("Generating a beatiful new dog named " + name + " of the breed " + breed + " and the age of " + age + "...")
-  this.age = age;
+  this.name = name;
   this.breed = breed;
   this.age = age;
 }
