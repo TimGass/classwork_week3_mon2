@@ -3,11 +3,14 @@ function dog(name, breed, age) {
   this.age = age;
   this.breed = breed;
   this.age = age;
-  this.speak = function(){
+}
+
+dog.prototype.speak = function(){
     console.log("Bark!");
   }
-}
 
 var sparky = new dog("sparky", "steppenwolf", 12);
 
 console.log(sparky);
+
+sparky.speak();
